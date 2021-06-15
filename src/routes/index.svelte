@@ -57,7 +57,8 @@
 	<h2 class="text-2xl md:text-4xl text-center px-8">
 		<span class="inline-block">Projects and experience</span>
 	</h2>
-	<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 mt-8 px-4">
+	<small>Click one for more info</small>
+	<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-8 px-4">
 		{#each PROJECTS as project}
 			<Project {project} />
 		{/each}
@@ -89,11 +90,12 @@
 	<h2 class="text-2xl md:text-4xl text-center px-8">
 		<span class="inline-block">Technologies</span>
 	</h2>
+	<small>Click one for more info</small>
 	<table class="mt-8">
 		{#each TECHNOLOGIES as technology}
 			<tr>
 				<td class="pr-6 md:pr-12 py-2 flex">
-					<a href={`/technologies/${technology.uid}`}>
+					<a class="text-steel-500 dark:text-steel-200" href={`/technologies/${technology.uid}`}>
 						{technology.name}
 					</a>{#if technology.certificate}
 						<a href={technology.certificate.link}>

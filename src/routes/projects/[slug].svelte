@@ -28,7 +28,10 @@
 				{#each technologies as technology}
 					<tr>
 						<td class="pr-6 md:pr-12 py-2">
-							<a href={`/technologies/${technology.uid}`}>
+							<a
+								class="text-steel-500 dark:text-steel-200"
+								href={`/technologies/${technology.uid}`}
+							>
 								{technology.name}
 							</a>{#if technology.certificate}
 								<a href={technology.certificate.link}>

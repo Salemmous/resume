@@ -57,7 +57,7 @@
 	<h2 class="text-2xl md:text-4xl text-center px-8">
 		<span class="inline-block">Projects and experience</span>
 	</h2>
-	<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 mt-8">
+	<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 mt-8 px-4">
 		{#each PROJECTS as project}
 			<Project {project} />
 		{/each}
@@ -73,7 +73,7 @@
 	<h2 class="text-2xl md:text-4xl text-center px-8">
 		<span class="inline-block">Languages</span>
 	</h2>
-	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-8">
+	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-8 w-full px-4">
 		{#each LANGUAGES as language}
 			<Language {language} />
 		{/each}

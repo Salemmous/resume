@@ -5,7 +5,7 @@
 	const text = ['Tried it', 'Familiar', 'Good', 'Very good', 'Excellent'];
 </script>
 
-<div class="flex flex-wrap">
+<div class="flex flex-wrap flex-col sm:flex-row">
 	<span class="hidden sm:block mr-2">Level: </span>
 	<div class="space-x-2 sm:space-x-4 mr-2">
 		{#each emojis as emoji, i}

@@ -43,8 +43,8 @@
 	<hr class="transition-colors w-3/4 mt-4 dark:border-gray-900 opacity-50" />
 	<p class="my-2 px-12 sm:px-16 md:px-24 lg:px-32 xl:px-48">
 		Programming for over 11 years, I have learnt diverse aspects of the discipline. Ranging from
-		gaming to machine learning, there is no topic I would not be interested to learn about. I am
-		always eager to learn new things.
+		gaming to machine learning, there is no topic I would not be interested to master. I am always
+		eager to try new things out and educate myself.
 	</p>
 	<hr class="transition-colors w-3/4 mb-4 dark:border-gray-900 opacity-50" />
 </section>

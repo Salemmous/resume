@@ -1,47 +1,25 @@
 <script lang="ts">
-	import Header from '$lib/Header/index.svelte';
-	import "../app.postcss";
-</script>
+	import Header from '../components/Header.svelte';
+	import '../app.postcss';
 
-<Header>
+	const isBrowser = typeof document !== 'undefined';
 
-<main>
-	<slot>
-</slot></main>
-
-<footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer>
-
-<style>
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
+	function initBrowser() {
+		if (
+			localStorage.theme === 'dark' ||
+			(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+		) {
+			document.documentElement.classList.add('dark');
+		} else {
+			document.documentElement.classList.remove('dark');
 		}
 	}
-</style>
-</Header>
-<slot></slot>
+
+	if (isBrowser) initBrowser();
+</script>
+
+<Header />
+
+<main>
+	<slot />
+</main>

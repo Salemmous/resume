@@ -5,14 +5,16 @@
 	const text = ['Tried it', 'Familiar', 'Good', 'Very good', 'Excellent'];
 </script>
 
-<div class="space-x-4">
-	<span>Level: </span>
-	{#each emojis as emoji, i}
-		<span class:opacity-100={i + 1 === level} class="opacity-50">
-			{emoji}
-		</span>
-	{/each}
-	<span class="p-2 border-lg rounded-md">
+<div class="flex flex-wrap">
+	<span class="hidden sm:block mr-2">Level: </span>
+	<div class="space-x-2 sm:space-x-4 mr-2">
+		{#each emojis as emoji, i}
+			<span class:opacity-100={i + 1 === level} class="opacity-50">
+				{emoji}
+			</span>
+		{/each}
+	</div>
+	<span>
 		{text[level - 1]}
 	</span>
 </div>

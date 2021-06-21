@@ -6,10 +6,11 @@ export const PROJECTS: IProject[] = [
 		name: 'Frend',
 		dateRange: 'Nov 2019 - now',
 		link: 'http://frendapp.net/',
-		description:
-			'Social media where users get to meet each other based on the communities they join.',
-		longDescription:
-			'Frend is a social media where users get to meet each other based on the communities they join.',
+		description: 'Social media where users get to meet each other based on their communities.',
+		longDescription: `Frend is a social media where users get to meet each other based on the communities they join.
+			I started it as a service to find friends to party with at the University of Helsinki, then a friend
+			joined me in the project and we expanded. It is a project I am proud of, because it requires almost no
+			maintenance and the costs are very low.`,
 		technologies: [
 			'svelte',
 			'dart',

@@ -30,5 +30,10 @@
 				<a href="https://www.linkedin.com/in/thomas-de-bluts-296a74131/">LinkedIn</a>
 			</td>
 		</tr>
+		<tr>
+			<td colspan="2" class="text-center pt-2 text-steel-500 dark:text-steel-200">
+				<a href="https://github.com/Salemmous">GitHub</a>
+			</td>
+		</tr>
 	</table>
 </section>

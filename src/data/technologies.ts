@@ -122,27 +122,38 @@ export const TECHNOLOGIES: ITechnology[] = [
 		certificate: {
 			image: '/gcp_certified.png',
 			link: 'https://www.credential.net/6efa54ec-b4b9-42b9-995b-76b2e42836a1'
-		}
+		},
+		description: `Almost all of my personal projects are made on GCP. I have been using it foor some years now.`
 	},
 	{
 		uid: 'aws',
 		name: 'AWS',
-		level: 4
+		level: 4,
+		description: `AWS is far from being new to me. I have already used many of its services for various purposes.
+		These include machine learning, ETL pipelines, IoT data streams, API hosting, database hosting, and more.`
 	},
 	{
 		uid: 'azure',
 		name: 'Azure',
-		level: 2
+		level: 2,
+		descriptioon: `Azure is a must when working for companies in Finland. I have used it in work projects as well
+		as in side projects.`
 	},
 	{
 		uid: 'flutter',
 		name: 'Flutter',
-		level: 5
+		level: 5,
+		description: `Flutter is surely one of the technologies I love the most. I started using it early 2018.
+		When I have to make a mobile app, this is my first choice.
+		`
 	},
 	{
 		uid: 'svelte',
 		name: 'Svelte',
-		level: 5
+		level: 5,
+		description: `All of my side projects are now made with Svelte.
+		It is so fast and I feel a lot more productive in it.
+		`
 	},
 	{
 		uid: 'react',

@@ -74,7 +74,7 @@ export const TECHNOLOGIES: ITechnology[] = [
 		name: 'C++',
 		description: `When I was 12, I wanted to make Pokemon games. I then decided to learn C and C++. For quite some years, it was my main
         programming language.`,
-		level: 3
+		level: 2
 	},
 	{
 		uid: 'unity',
@@ -178,7 +178,52 @@ export const TECHNOLOGIES: ITechnology[] = [
 	{
 		uid: 'kubernetes',
 		name: 'Kubernetes',
-		level: 5
+		level: 4
+	},
+	{
+		uid: 'terraform',
+		name: 'Terraform',
+		level: 3
+	},
+	{
+		uid: 'cloudformation',
+		name: 'CloudFormation',
+		level: 2
+	},
+	{
+		uid: 'solidjs',
+		name: 'SolidJS',
+		level: 2
+	},
+	{
+		uid: 'sql',
+		name: 'SQL',
+		level: 3
+	},
+	{
+		uid: 'kafka',
+		name: 'Kafka',
+		level: 2
+	},
+	{
+		uid: 'opensearch',
+		name: 'OpenSearch',
+		level: 2
+	},
+	{
+		uid: 'kibana',
+		name: 'Kibana',
+		level: 2
+	},
+	{
+		uid: 'redis',
+		name: 'Redis',
+		level: 2
+	},
+	{
+		uid: 'glue',
+		name: 'AWS Glue',
+		level: 2
 	}
 ].sort((a, b) => a.name.localeCompare(b.name));
 

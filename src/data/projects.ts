@@ -4,10 +4,9 @@ export const PROJECTS: IProject[] = [
 	{
 		uid: 'frend',
 		name: 'Frend',
-		dateRange: 'Nov 2019 - now',
-		link: 'http://frendapp.net/',
+		dateRange: 'Nov 2019 - Nov 2021',
 		description: 'Social media where users get to meet each other based on their communities.',
-		longDescription: `Frend is a social media where users get to meet each other based on the communities they join.
+		longDescription: `Frend was a social media where users get to meet each other based on the communities they join.
 			I started it as a service to find friends to party with at the University of Helsinki, then a friend
 			joined me in the project and we expanded. It is a project I am proud of, because it requires almost no
 			maintenance and the costs are very low.`,
@@ -66,7 +65,15 @@ export const PROJECTS: IProject[] = [
 			'react-native',
 			'vue',
 			'angular',
-			'kubernetes'
+			'kubernetes',
+			'kafka',
+			'opensearch',
+			'cloudformation',
+			'terraform',
+			'sql',
+			'kibana',
+			'redis',
+			'glue'
 		].sort()
 	},
 	{

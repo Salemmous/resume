@@ -232,7 +232,7 @@ export const TECHNOLOGIES: ITechnology[] = [
 	},
 	{
 		uid: 'serverless',
-		name: 'Serverless.coom',
+		name: 'Serverless.com',
 		level: 3
 	},
 	{

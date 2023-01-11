@@ -224,6 +224,26 @@ export const TECHNOLOGIES: ITechnology[] = [
 		uid: 'glue',
 		name: 'AWS Glue',
 		level: 2
+	},
+	{
+		uid: 'tailwind',
+		name: 'TailwindCSS',
+		level: 4
+	},
+	{
+		uid: 'serverless',
+		name: 'Serverless.coom',
+		level: 3
+	},
+	{
+		uid: 'cognito',
+		name: 'Cognito',
+		level: 3
+	},
+	{
+		uid: 'lambda',
+		name: 'AWS Lambda',
+		level: 4
 	}
 ].sort((a, b) => a.name.localeCompare(b.name));
 

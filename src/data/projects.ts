@@ -73,7 +73,11 @@ export const PROJECTS: IProject[] = [
 			'sql',
 			'kibana',
 			'redis',
-			'glue'
+			'glue',
+			'tailwind',
+			'cognito',
+			'serverless',
+			'lambda'
 		].sort()
 	},
 	{
